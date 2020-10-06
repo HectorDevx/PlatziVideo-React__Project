@@ -28,7 +28,7 @@ const CarouselItem = ({ cover, title, year, contentRating, duration }) => (
   </div>
 );
 
-CarouselIte.propTypes = {
+CarouselItem.propTypes = {
   cover: PropTypes.string,
   title: PropTypes.string,
   year: PropTypes.number,
