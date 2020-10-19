@@ -1,0 +1,127 @@
+/*-------------------------------
+Login
+-------------------------------*/
+
+.login {
+  background: linear-gradient(#21c08b, #ab88ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 0px;
+  min-height: calc(100vh - 200px);
+
+  &__container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 5px 5px 40px #555;
+
+    &--form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 14px;
+      }
+    }
+
+    .remember-me {
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+
+      a {
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &--social-media > div {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    &--register {
+      font-size: 14px;
+
+      a {
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        align-self: center;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+  }
+}
+
+::placeholder {
+  color: white;
+}
+
+.social-media--icon {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+/*-------------------------------
+Registro
+-------------------------------*/
+
+.register--iniciar {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
